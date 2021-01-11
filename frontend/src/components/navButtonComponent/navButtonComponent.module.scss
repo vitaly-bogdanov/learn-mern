@@ -1,0 +1,19 @@
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  text-shadow: 0 0 0 white;
+  transition: text-shadow 0.5s ease;
+  &:hover {
+    text-shadow: 0 0 4px white;
+  }
+}
+
+.activeNavLink {
+  font-size: 25px;
+  &:hover {
+    text-shadow: 0 0 0px white;
+  }
+}
